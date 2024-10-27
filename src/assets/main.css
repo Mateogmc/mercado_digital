@@ -1,0 +1,60 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin: 0px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.logo {
+    margin: 5px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img {
+    width: auto;
+    height: 30px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-link {
+    height: 100%;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    transition: 150ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link:hover {
+    background-color: #A0A0A0;
+}

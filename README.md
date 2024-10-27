@@ -1,24 +1,19 @@
 # mercado-digital
 
-## Project setup
-```
-npm install
-```
+### Frontend
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Para el frontend hago uso de Vue.js.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- #### Vistas
+    - HomeView
+    - ListView
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Las vistas las manejo con **Vue Router**
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Backend
+
+Para el backend hago uso de Node.js. A su vez, le incluyo los siguientes paquetes:
+
+- Http
+- Socket.IO
+- Express
